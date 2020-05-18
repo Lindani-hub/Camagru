@@ -1,0 +1,33 @@
+#message {
+    display:none;
+    padding:20px;
+    margin-top:30px;
+    position:relative;
+    background:#f1f1f1;
+}
+#adminH{
+    text-align:center;
+    margin-bottom:50px;
+}
+#message p {
+    font-size:18px;
+    padding:10px 35px;
+}
+
+.valid {
+    color:green;
+}
+.valid:before {
+    left: -35px;
+    content:".";
+    position:relative;
+}
+
+.invalid {
+    color:red;
+}
+.invalid:before {
+    left: -35px;
+    content: ".";
+    position:relative;
+}

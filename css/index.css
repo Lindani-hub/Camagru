@@ -1,0 +1,27 @@
+body {
+    background: url("../images/photo.jpg");
+    background-size: cover;
+    background-position:center;
+    font-family:Lato;
+}
+html {
+    height:100%;
+}
+#content {
+    padding-top:25%;
+    text-align:center;
+    color:white;
+}
+
+h1 {
+    font-weight:700;
+    font-size:5em; 
+    margin-bottom:40px;
+}
+hr {
+    width:400px;
+    border-top: 1px solid #f8f8f8;
+}
+.booth {
+    margin: 300px auto 0px auto;
+}
